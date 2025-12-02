@@ -1,0 +1,30 @@
+body {
+  margin: 15px;
+  max-width: 1410px;
+}
+
+h1, p {font-family: Quicksand;}
+
+p {
+  font-size: 1.4em;
+  line-height: 1.3em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 960px) {
+  main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  img, article {width: 49%;}
+}
+
+@media (min-width: 1440px) {
+  body {margin: auto;}
+}
