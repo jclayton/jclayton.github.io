@@ -5,6 +5,8 @@ body {
 
 h1, p {font-family: Quicksand;}
 
+h1 {font-size: 1.8em;}
+
 p {
   font-size: 1.2em;
   line-height: 130%;
@@ -13,6 +15,10 @@ p {
 img {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 640px) {
+  h1 {font-size: 2em;}
 }
 
 @media (min-width: 640px) and (max-width: 959px) {
