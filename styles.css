@@ -6,13 +6,19 @@ body {
 h1, p {font-family: Quicksand;}
 
 p {
-  font-size: 1.4em;
-  line-height: 1.3em;
+  font-size: 1.2em;
+  line-height: 130%;
 }
+
+span {white-space: nowrap;}
 
 img {
   width: 100%;
   height: auto;
+}
+
+@media (min-width: 640px) and (max-width: 959px) {
+  p {font-size: 1.4em;}
 }
 
 @media (min-width: 960px) {
@@ -27,4 +33,5 @@ img {
 
 @media (min-width: 1440px) {
   body {margin: auto;}
+  p {font-size: 1.4em;}
 }
