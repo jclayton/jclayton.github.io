@@ -1,6 +1,8 @@
 body {
   margin: 15px;
   max-width: 1410px;
+  transition: all 500ms;
+  padding-bottom: 20px;
 }
 
 h1, p {font-family: Quicksand;}
@@ -16,6 +18,18 @@ img {
   width: 100%;
   height: auto;
 }
+
+#color-mode {
+  width: 24px;
+  height: auto;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+}
+
+#color-mode:hover {opacity: 0.5;}
+#color-mode:active {opacity: 1;}
 
 @media (min-width: 640px) {
   h1 {font-size: 2em;}
